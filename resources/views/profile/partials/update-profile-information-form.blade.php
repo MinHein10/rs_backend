@@ -51,7 +51,7 @@
         </div>
 
         <div class="tw-flex tw-items-center tw-gap-4">
-            <x-primary-button>{{ __('Save') }}</x-primary-button>
+            <x-white-button>{{ __('Save') }}</x-white-button>
 
             @if (session('status') === 'profile-updated')
             <p x-data="{ show: true }" x-show="show" x-transition x-init="setTimeout(() => show = false, 2000)"
